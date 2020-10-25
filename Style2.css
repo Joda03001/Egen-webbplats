@@ -1,4 +1,4 @@
-
+/*Här är min layout som är skapad med grid. Indelad i fjärdedelar  med header, nav, main och footer.  */
 .container{
 	display: grid; 
 		grid-template-columns: 1fr 1fr 1fr 1fr; 
@@ -10,19 +10,19 @@
 	"footer footer footer footer";
 		
 }
-
+/*h1 är orange */ 
 h1 {
 	
 	color:orange;
 	
 }
-
+/* all text är grön */ 
 p{
 	color: green;
 	
 }
 
-header{s
+header{
 	grid-area:header;
 }
 
@@ -37,8 +37,35 @@ main{
 }
 	
 	 
-foote{ 
+footer{ 
    grid-area:  footer; 
    
 }
 	
+	/* tabellen har sträck för att man ska se tydligare vad som ligger vart.Detta är en gruppselektor.  */
+	table,  th, td, tr{
+	border: 1px solid black;
+	border-collapse: collapse;
+}  
+/* h1 är centrerat på sidan. Detta är en typselektor. */ 
+h1  { 
+    text-align: center;
+    
+} 
+/*h2 är röd */
+h2 {
+	
+	color:red;
+	
+}
+/* En klasselektor där texten som använder klassen blå får blå färg */
+.blå {
+	color:blue; 
+	
+}
+
+.orange {
+ 
+   background-color:orange; 
+ 	
+}
