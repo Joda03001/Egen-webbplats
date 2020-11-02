@@ -69,3 +69,15 @@ h2 {
    background-color:orange; 
  	
 }
+
+.sidfot{
+	  color:orangeRed; 
+	   
+} 
+
+/* Bakgrundfärgen på hela sidan är powderBlue */
+body {
+	
+	background-color:powderBlue; 
+	
+} 
